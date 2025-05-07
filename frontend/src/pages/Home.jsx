@@ -17,6 +17,7 @@ export default function Home() {
     setIsLogin,
     logout,
   } = useContext(AuthContext);
+  
   const [posts, setPosts] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [loading, setLoading] = useState(false);
